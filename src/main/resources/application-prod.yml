@@ -1,0 +1,57 @@
+spring:
+  datasource:
+    level:
+      jdbc-url: jdbc:sqlite:C:\water_level_data\water_level.db
+      driver-class-name: org.sqlite.JDBC
+
+pythondir:
+  C:/water_level_data/
+python:
+  python
+basedir:
+  C:/water_level_data/data/
+tempDir:
+  C:/water_level_data/temp/
+data-path:
+  C:/water_level_data/utc+8_data/
+singleFileDir:
+  C:/water_level_data/all/
+waterleveldb:
+  C:/water_level_data/water_level.db
+stationnamejson:
+  C:/water_level_data/station_name.json
+
+waterlevellog:
+  C:/water_level_data/yangtze_downstream_log.txt
+yangtzeDownstreamStationJson:
+  C:/water_level_data/yangtze_downstream_station.json
+
+
+zhejianglog:
+  C:/water_level_data/zhejiang_log.txt
+zhejiangjson:
+  C:/water_level_data/zhejiang_station.json
+
+anhuilog:
+  C:/water_level_data/anhui_log.txt
+anhuijson:
+  C:/water_level_data/nodescript/station.json
+nodescriptpath:
+  C:/water_level_data/nodescript/
+
+jiangsulog:
+  C:/water_level_data/jiangsu_log.txt
+jiangsujson:
+  C:/water_level_data/jiangsu_station.json
+pngpath:
+  C:/water_level_data/png/
+
+hubeiLog:
+  C:/water_level_data/hubei_log.txt
+hubeiJson:
+  C:/water_level_data/hubei_station.json
+
+#水位预报模型地址
+predictionPath: C:/water_level_data/prediction/
+
+
